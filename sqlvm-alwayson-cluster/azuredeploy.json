@@ -96,7 +96,7 @@
       "metadata": {
         "description": "The size of the SQL VMs Created"
       },
-      "defaultValue": "Standard_DS4"
+      "defaultValue": "Standard_DS3"
     },
     "witnessVMSize": {
       "type": "string",
@@ -136,7 +136,7 @@
       "metadata": {
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "contoso.local"
+      "defaultValue": "adsqlcluster.local"
     },
     "sqlServerServiceAccountUserName": {
       "type": "string",
@@ -160,12 +160,12 @@
     "sqlStorageAccountType": {
       "type": "string",
       "allowedValues": [
-        "Premium_LRS"
+        "Standard_LRS"
       ],
       "metadata": {
         "description": "The type of the Sql Server Storage Account created"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     },
     "dcStorageAccountName": {
       "type": "string",
