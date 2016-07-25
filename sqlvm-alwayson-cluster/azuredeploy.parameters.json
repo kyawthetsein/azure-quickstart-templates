@@ -15,7 +15,7 @@
          "value":"GEN-PASSWORD"
       },
       "sqlStorageAccountType":{  
-         "value":"Premium_LRS"
+         "value":"Standard_LRS"
       },
       "dcStorageAccountType":{  
          "value":"Standard_LRS"
@@ -30,13 +30,13 @@
          "value":"Standard_D1_v2"
       },
       "sqlVMSize":{  
-         "value":"Standard_DS4"
+         "value":"Standard_DS3"
       },
       "witnessVMSize":{  
          "value":"Standard_DS1"
       },
       "domainName":{  
-         "value":"contoso.local"
+         "value":"adsqlcluster.local"
       },
       "virtualNetworkAddressRange":{  
          "value":"10.0.0.0/16"
